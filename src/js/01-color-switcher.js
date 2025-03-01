@@ -24,4 +24,4 @@ dataStop.addEventListener('click', () => {
   dataStart.removeAttribute('disabled');
   clearInterval(timerId);
   dataStop.setAttribute('disabled', true);
-});
+});//
